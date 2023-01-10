@@ -1,0 +1,244 @@
+@media (max-width: 575.98px) {
+
+    .navbar-brand .img {
+        width: 100px;
+    }
+    .banner {
+        padding-top: 149px;
+        padding-bottom: 100px;
+    }
+    .banner-text h1 {
+        line-height: 35px;
+    }
+    .banner-text p {
+        padding: 0px 0px;
+    }
+    .banner-btn button {
+        color: #000;
+        padding: 7px 10px;
+        background: #00e0d0;
+    }
+
+
+
+
+
+
+    .your-story-images img {
+        width: 90px;
+    }
+    #your-story {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .your-story-text {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .your-story-text h3 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    .your-story-text span {
+        padding-top: 20px;
+    }
+    .your-story-text button {
+        padding: 7px 10px;
+        color: #000;
+        background: #00e0d0;
+    }
+
+
+
+
+
+
+
+
+
+    #video-part {
+        padding: 105px 0px;
+    }
+    .video-icon-text a {
+        font-size: 50px;
+    }
+    .video-icon-text h2 {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+
+
+
+
+    .expertise h2 {
+        font-size: 20px;
+    }
+    .expertise p {
+        color: #2f2d35;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .icon {
+        font-size: 35px;
+    }
+    .text h5 {
+        font-size: 18px;
+    }
+    .text p {
+        padding: 0px 0px;
+    }
+    .expertise-wrapper {
+        padding-top: 53px;
+    }
+
+
+
+
+
+
+    .meet-team h2 {
+        font-size: 20px;
+    }
+    .meet-team p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .meet-details {
+        margin-bottom: 20px;
+    }
+    .meet-bottom-text button {
+        padding: 7px 10px;
+        border: 1px solid #00e0d0;
+        color: #000;
+        font-size: 15px;
+        background: #00e0d0;
+    }
+
+
+
+
+
+
+
+    .our-works-text-details h4 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .our-works-text-details {
+        padding: 10px 9px;
+        margin-right: 5px;
+    }
+    .our-works button {
+        padding: 7px 10px;
+        margin-top: 0px;
+        font-size: 15px;
+        color: #000;
+        background: #00e0d0;
+    }
+
+
+
+    #symbol-part {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .symbol-icon i {
+        font-size: 40px;
+    }
+    .symbole-text p {
+        padding: 0px 0px;
+        margin-top: 28px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .symbole-text h4 {
+        padding-top: 22px;
+    }
+
+
+
+
+
+
+
+
+
+    .login-text h4 {
+        font-size: 20px;
+        padding-bottom: 28px;
+        text-align: center;
+    }
+    .login-from input {
+        width: 100%;
+    }
+    .login-from textarea {
+        width: 100%;
+    }
+    .login-from button {
+        padding: 7px 20px;
+        color: #000;
+        background: #00e0d0;
+        margin-left: 100px;
+    }
+
+    .login-text h4 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .login-img img {
+        padding-bottom: 35px;
+        width: 100%;
+    }
+    .login-img {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+
+
+
+
+
+
+    .footer-fast .images{
+        text-align: center;
+    }
+    #footer-part {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+    .footer-fast-text {
+        font-size: 13px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .help-text {
+        padding-top: 45px;
+    }
+    .help-text h4 {
+        text-align: center;
+        line-height: 17px;
+    }
+    .footer-sec h3 {
+        padding-top: 45px;
+        text-align: center;
+    }
+    .footer-sec-icon-text {
+        justify-content: center;
+    }
+    .footer-sec-call {
+        margin-left: 15px;
+    }
+
+
+    .footer-three h3 {
+        text-align: center;
+    }
+    .footer-three-icon {
+        text-align: center;
+    }
+
+
+ }

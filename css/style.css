@@ -1,0 +1,646 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+/* ============= navbar css start ================ */
+.navbar{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    transition: all linear 0.4s;
+    text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #00e0d0;
+}
+/* ============= navbar css end ================ */
+/* ============= banner css start ================ */
+.banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 231px;
+    padding-bottom: 209px;
+    position: relative;
+    z-index: 1;
+}
+.banner:after{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background:rgba(39, 20, 102, 0.8) ;
+ z-index: -1;
+}
+.banner-text h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    display: inline-block;
+}
+.banner-text h1::before{
+    content: '';
+    position: absolute;
+    bottom: -27px;
+    left: 50%;
+    height: 2px;
+    width: 50px;
+    background: #00e0d0;
+    transform: translateX(-50%);
+}
+.banner-text p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    line-height: 22px;
+    padding: 0px 331px;
+}
+.banner-btn{
+    padding-top: 52px;
+}
+.banner-btn button{
+    color: #00e0d0;
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #00e0d0;
+    border-radius: 10%;
+    transition: all linear .4s;
+}
+.banner-btn button:hover{
+    border: 1px solid #00e0d0;
+    color: #000;
+    background: #00e0d0;
+}
+/* slick dots */
+.slick-dots{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.slick-dots li{
+    display: inline-block;
+    margin: 0px 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #00e0d0;
+}
+.slick-dots li button{
+    color: transparent;
+    background: red;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 0;
+}
+.slick-dots li.slick-active button{
+   opacity: 1;
+}
+/* ============= banner css end ================ */
+/* ============= your-story css start ================ */
+#your-story{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.your-story-text h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 30px;
+}
+.your-story-text p{
+    color: #413d4b;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+.your-story-text span{
+    padding-top: 30px;
+    display: block;
+}
+.your-story-text button{
+    padding: 10px 15px;
+    margin-top: 30px;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    background: transparent;
+    transition: all linear .4s;
+    border-radius: 10%;
+}
+.your-story-text button:hover{
+    border: 1px solid #00e0d0;
+    color: #000;
+    background: #00e0d0;
+}
+/* ============= your-story css end ================ */
+/* ============= video css start ================ */
+#video-part{
+    background: url(../images/video-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 202px 0px;
+    position: relative;
+    z-index: 1;
+}
+#video-part::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(39, 20, 102, 0.8) ;
+    z-index: -1;
+}
+.video-icon-text a {
+    font-size: 92px;
+    color: #fff;
+}
+.video-icon-text h2 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+}
+/* ============= video css end ================ */
+/* ============= EXPERTISE css start ================ */
+#expertise{
+    padding-top: 75px;
+    padding-bottom: 105px;
+}
+.expertise h2{
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 17px;
+}
+.expertise p{
+    color: #2f2d35;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+.expertise p:after{
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    height: 2px;
+    width: 50px;
+    background: #c6c4c9;
+    transform: translateX(-50%);
+
+}
+
+.expertise-wrapper {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon {
+    font-size: 43px;
+    color: #0de2d2;
+}
+.text h5{
+    color: #413d4b;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.text p {
+    color: #413d4b;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    padding: 0px 103px;
+
+}
+/* ============= EXPERTISE css end ================ */
+/* ============= meet-team css start ================ */
+#meet-team{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+#meet-team::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(39, 20, 102, 0.8) ;
+    z-index: -1;
+}
+.meet-team h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 17px;
+}
+.meet-team  p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+.meet-details{
+    width: 100%;
+    height: 308px;
+    border: 1px solid #c6c4c9;
+    text-align: center;
+}
+.meet-img{
+    width: 100%;
+    height: 230px;
+    border-bottom: 1px solid #fff;
+    background: #f5f4f6;
+    overflow: hidden;
+
+}
+.meet-img img{
+    width: 100%;
+}
+.meet-text h5{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 21px;
+}
+.meet-text h6{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 12px;
+}
+.meet-all-item{
+    padding-top: 70px;
+}
+.meet-bottom-text h4{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+}
+.meet-bottom-text button{
+    padding: 10px 15px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    background: transparent;
+    margin-top: 25px;
+    transition: all linear 0.4s;
+    border-radius: 10px;
+} 
+.meet-bottom-text button:hover{
+ color: #000;
+ background: #00e0d0;
+ border: 1px solid #00e0d0;
+}
+/* ============= meet-team css end ================ */
+/* ============= our works css start ================ */
+#our-works{
+    padding: 75px 0px;
+}
+.our-works-text-details{
+    padding: 10px 10px;
+    border: 1px solid #dddddd;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.our-works-text-details h4{
+    color: #413d4b;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.our-work-banner{
+    padding-top: 50px;
+}
+/* .our-works-back-banner img{
+    width: 100%;
+} */
+.our-works-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+.our-works{
+    padding-top: 70px;
+}
+.our-works button{
+    padding: 10px 15px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    background: transparent;
+    margin-top: 25px;
+    transition: all linear .4s;
+    border-radius: 10px;
+}
+.our-works button:hover{
+    color: #000;
+    background: #00e0d0;
+    border: 1px solid #00e0d0;
+}
+/* ============= our works css end ================ */
+/* ============= symbol css start ================ */
+#symbol-part{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 1;
+}
+#symbol-part::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(39, 20, 102, 0.8) ;
+    z-index: -1;
+}
+.symbol-icon i{
+    font-size: 60px;
+    color: #fff;
+}
+.symbole-text p {
+    color: #fff;
+    line-height: 22px;
+    padding: 0px 288px;
+    margin-top: 50px;
+}
+.symbole-text h4{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+    padding-bottom: 10px;
+}
+.symbole-text h5{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ============= symbol css end ================ */
+/* ============= login css start ================ */
+#login-part{
+    padding: 72px 0px;
+}
+.login-text h4{
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 35px;
+}
+.login-from-Wrapper{
+    padding-bottom: 22px;
+}
+.login-from input{
+    width: 460px;
+    border: 1px solid #e5e5e5;
+}
+.login-from textarea{
+    border: 1px solid #e5e5e5;
+}
+.login{
+    padding: 0px 20px;
+}
+.login-from button{
+    padding: 10px 32px;
+    margin-top: 20px;
+    border: 2px solid #00e0d0;
+    color: #00e0d0;
+    background: transparent;
+    transition: all linear .4s;
+    border-radius: 10px;
+}
+.login-from button:hover{
+    background: #00e0d0;
+    border: 2px solid #00e0d0;
+    color: #000000;
+}
+
+
+.login-img img{
+    padding-bottom: 48px;
+}
+.login-img{
+    width: 160px;
+    text-align: center;
+    margin-right: 70px;
+}
+.login-img:last-child{
+    margin-right: 0px;
+}
+/* .login-img-2{
+    width: 160px;
+    margin-left: 70px;
+} */
+/* .login-logo{
+    text-align: center;
+    margin-bottom: 48px;
+   
+} */
+/* ============= login css end ================ */
+/* ============= footer css start ================ */
+#footer-part{
+    background: url(../images/footer-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 72px;
+    position: relative;
+    z-index: 1;
+}
+#footer-part::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(39, 20, 102, 0.8) ;
+    z-index: -1;
+}
+.footer-fast-text{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 28px;
+}
+.help-text{
+    padding-top: 80px;
+}
+.help-text h4{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 42px;
+    cursor: pointer;
+}
+.help-text h4:last-child{
+    margin-right: 0px;
+}
+
+
+
+
+
+.footer-sec h3{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 38px;
+}
+.footer-sec-icon{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer-sec-text p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.footer-sec-call{
+    padding-top: 25px;
+}
+.footer-sec-call i{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer-sec-call p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.footer-three h3{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 38px;
+}
+.search{
+    padding: 18px 23px 17px 14px;
+    background: transparent;
+    border: 1px solid #c6c4c9;
+}
+.click-bar{
+    height: 60px;
+    width: 70px;
+    margin-left: 10px;
+    background: rgba(198, 196, 201, 0.623);
+    cursor: pointer;
+}
+.click-bar i{
+    color: #000;
+    line-height: 60px;
+    font-size: 24px;
+}
+.footer-three-icon i{
+    color: #fff;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #c6c4c9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 31px;
+}
+.footer-three-icon{
+    padding-top: 27px;
+}
+.footer-three-icon a{
+    margin-right: 10px;
+}
+.footer-three-icon a:last-child{
+    margin-right: 0px;
+}
+.copyright p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+    text-align: center;
+}
+/* ============= footer css end ================ */
